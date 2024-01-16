@@ -6,7 +6,8 @@
     --boot-lighter: rgba(216, 99, 160, 1);
     --boot-light: rgba(246, 248, 249, 1);
     --boot-dark:  rgba(156, 114, 228, 1);
-    --boot-dark1: rgba(70, 74, 83, 1);;
+    --boot-dark1: rgba(70, 74, 83, 1);
+    --boot-light1: rgba(100, 192, 168, 1);
 }
 
 body{
@@ -29,6 +30,7 @@ body{
 .logo_text{
     font-size: 2rem;
     color: black;
+    vertical-align: middle;
     
 }
 
@@ -39,7 +41,7 @@ body{
 /* site_main */
  /* button */
 #container{
-    margin-top: 50px;
+    margin-top: 35px;
     padding-left: 170px;
     margin-right: 170px;
 }
@@ -79,13 +81,14 @@ body{
     padding-top: 15px;
     padding-left: 50px;
     padding-bottom: 10px;
+    font-weight: 500;
 }
 
 .check{
     border: 1px solid green;
     border-radius: 50%;
     color: green;
-    padding: 5px;
+    padding: 2px;
 }
 
 .editorial{
@@ -95,4 +98,60 @@ body{
     border: solid 1px var(--boot-primary);
     padding: 5px;
     font-size: 0.7rem;
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    padding: 2px;
+}
+
+.goals{
+    background-color: var(--boot-dark);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px var(--boot-dark);
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.recruiting{
+    background-color: var(--boot-light1);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px var(--boot-light1);
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.mobile{
+    background-color: var(--boot-accent);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px var(--boot-accent);
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.website{
+    background-color: var(--boot-lighter);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px var(--boot-lighter);
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.sales{
+    background-color: var(--boot-secondary);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px var(--boot-secondary);
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.line{
+    padding-bottom: 10px;
 }
