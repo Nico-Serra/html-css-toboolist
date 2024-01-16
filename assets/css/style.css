@@ -13,7 +13,7 @@ body{
     margin: 0;
 }
 
-/* header */
+/* site_header */
 
 .logo{
     background-color: white;
@@ -32,3 +32,38 @@ body{
     vertical-align: middle;
 }
 
+/* site_main */
+
+#container{
+    margin-top: 50px;
+    padding-left: 170px;
+    margin-right: 170px;
+}
+
+.selection_box{
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-top-left-radius:  5px;
+    border-top-right-radius:  5px;
+}
+
+.task{
+    background-color: var(--boot-primary);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px var(--boot-primary);
+    padding: 8px;
+    font-size: 0.7rem;
+
+}
+
+.section{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    border: solid 1px gray;
+    padding: 8px;
+    font-size: 0.7rem;
+}
